@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    padding: 15px 40px;
+}
+
+nav .logo{
+    color: white;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    margin-left: 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.intro{
+    height: 28rem;
+}
+
+.intro::before{
+    content:"" ;
+    background: url(images.jpg) center/cover;
+    display: flex;
+    position: absolute;
+    height: 28rem;
+    width: 100%;
+    z-index: -1;
+    opacity: .78;
+}
+
+
+.intro-text{
+    padding: 6rem;
+    padding-left: 50rem;
+    color: aliceblue;
+}
+
+.intro-text h1{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.intro-text p{
+    margin-bottom: 20px;
+}
+
+.intro-text button{
+    padding: 10px 25px;
+    background: #044383;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.about{
+    display: flex;
+    padding: 60px;
+    gap: 40px;
+    align-items: center;
+    background: #f4f4f4;
+}
+
+.about-img img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.about-text h2{
+    margin-bottom: 15px;
+}
+
+.about-text p{
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+#skills{
+    padding: 2rem;
+    background: #f4f4f4;
+}
+
+#skills h2{
+    padding-left: 3rem;
+}
+
+#skills ul{
+    list-style-type: none;
+    padding-left: 2rem;
+}
+
+#skills ul li{
+    padding: 2rem;
+    background: #306b93;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+#projects{
+    background: #f4f4f4;
+    padding: 1rem  0 2rem 5rem;
+}
+
+.project{
+    margin: 20px 20px;
+}
+.project h3{
+    margin: 7px;
+}
+
+.btn{
+    padding: 10px 20px;
+    background: #044383;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contact{
+    padding: 40px;
+    text-align: center;
+}
+
+.detail{
+    display: inline;
+    font-weight: 600;
+    font-size: medium;
+}
+
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+footer p{
+    padding: 1.5rem;
+}
